@@ -10,4 +10,3 @@ vim.keymap.set("n", "<C-k>", "<C-y>", { noremap = true, silent = true })
 vim.g.mapleader = " "
 vim.keymap.set("n", "<C-Up>", "<C-^>", { noremap = true, silent = true })
 vim.cmd("set autoindent")
-
