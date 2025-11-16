@@ -8,5 +8,5 @@ vim.opt.relativenumber = true
 vim.keymap.set("n", "<C-j>", "<C-e>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-k>", "<C-y>", { noremap = true, silent = true })
 vim.g.mapleader = " "
-vim.keymap.set("n", "<C-Up>", "<C-^>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<C-Up>", "<C-^>", { noremap = true, silent = true })
 vim.cmd("set autoindent")
