@@ -1,7 +1,7 @@
-vim.cmd("set expandtab")
+vim.cmd("set expandtab") -- Tab inserts spaces instead of tab character
 vim.cmd("set tabstop=4")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.cmd("set softtabstop=4")
+vim.cmd("set shiftwidth=4")
 vim.cmd("set clipboard=unnamedplus")
 vim.cmd("inoremap jj <Esc>")
 vim.opt.relativenumber = true
