@@ -1,21 +1,21 @@
 return {
-	"akinsho/bufferline.nvim",
-	version = "*",
-	dependencies = "nvim-tree/nvim-web-devicons",
-	config = function()
-		vim.opt.termguicolors = true
-		vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", { silent = true })
-		vim.keymap.set("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", { silent = true })
-		vim.keymap.set("n", "<C-w>w", "<Cmd>bdelete<bar>bnext<CR>", { silent = true })
-
-		local bufferline = require("bufferline")
-		bufferline.setup({
-			options = {
-				diagnostics = "nvim_lsp",
-				show_tab_indicators = true,
-				separator_style = "slant",
-				always_show_bufferline = true,
-			},
-		})
-	end,
+	-- "akinsho/bufferline.nvim",
+	-- version = "*",
+	-- dependencies = "nvim-tree/nvim-web-devicons",
+	-- config = function()
+	-- 	vim.opt.termguicolors = true
+	-- 	vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", { silent = true })
+	-- 	vim.keymap.set("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", { silent = true })
+	-- 	vim.keymap.set("n", "<C-w>w", "<Cmd>bdelete<bar>bnext<CR>", { silent = true })
+	--
+	-- 	local bufferline = require("bufferline")
+	-- 	bufferline.setup({
+	-- 		options = {
+	-- 			diagnostics = "nvim_lsp",
+	-- 			show_tab_indicators = true,
+	-- 			separator_style = "slant",
+	-- 			always_show_bufferline = true,
+	-- 		},
+	-- 	})
+	-- end,
 }
